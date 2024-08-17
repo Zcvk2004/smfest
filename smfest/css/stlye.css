@@ -1,0 +1,618 @@
+body{
+    background-color: #08003C;
+    overflow-x: hidden;
+}
+
+header{
+    padding-top: 40px;
+    color: white;
+    height: 650px;
+    background-image: url("/images/smfest-img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    padding-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.active {
+    color: orangered;
+}
+
+ul:hover{
+    cursor: pointer;
+}
+
+.second-li:hover{
+    color: orangered;
+}
+
+.third-li:hover{
+    color: orangered;
+}
+
+.fourth-li:hover{
+    color: orangered;
+}
+
+.fifth-li:hover{
+    color: orangered;
+}
+
+.logo{
+    width: 100px;
+}
+
+.search-icon{ 
+    text-align: end;
+}
+
+.theme{
+    margin-top: 30px;
+}
+
+.date{
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.ticket-btn-container{
+    text-align: center;
+}
+
+.ticket-btn{
+    font-weight: 800;
+    border: none;
+    margin-left: 1150px;
+    margin-bottom: -300px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #08003C;
+    padding: 10px 30px 10px 30px;
+}
+
+.video{
+    margin-top: 15px;
+}
+
+.video-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    
+}
+
+.video-btn{
+    font-size: x-large;
+    border: 1px solid #08003C;
+    background-color: transparent;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+.slide-btn{
+    overflow: hidden;
+    position: relative;
+    border: none;
+    width: 55%;
+    height: 56px;
+    color: white;
+    background-image: radial-gradient( #E22B6C, #F94A3A);
+    margin-left: 10px;
+}
+
+.slide-btn-container{
+    margin-right: -140px;
+}
+
+.slide-btn::before {
+    content: "SPONSOR";
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.3s ease-in-out;
+}
+  
+.slide-btn:hover::before {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+  
+.slide-btn::after {
+    content: "REGISTER";
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+}
+  
+.slide-btn:hover::after {
+    transform: translateX(0);
+    opacity: 1;
+}  
+
+.event-container{
+    padding: 0;
+}
+
+.event{
+    text-justify: inter-word;
+    font-size: 600%;
+    text-align: center;
+    font-weight: 900;   
+}
+
+
+.anticipate-container{
+    font-size: smaller;
+    text-align: center;
+}
+
+.anticipate{
+    letter-spacing: 5px;
+    margin-top: -65px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.counter-container{
+    padding-top: 60px;
+}
+
+.boxed-divs{
+    display: flex;
+    justify-content: center;
+}
+
+.attendees{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding: 15px 40px 10px 40px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+.volunteer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding: 15px 40px 10px 40px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+.plus-sign{
+    position: absolute;
+    width: 100%;
+    left: 20%;
+    top: 15%;
+}
+
+.about-container{
+    padding-top: 200px;
+}
+
+.about-div{
+    position: relative;
+    border: 5px solid #EE2F5B;
+    border-radius: 8px;
+    height: 700px;
+    margin-left: 130px;
+}
+
+.about{
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    left: -5%;
+    top: 50px;
+}
+
+.writeup-head{
+    color: white;
+    font-size: 60px;
+     font-weight: 800;
+}
+
+.writeup-1{
+    width: 40%;
+    margin-top: 80px;
+    padding-left: 40px;
+}
+
+.writeup-2{
+    color: #EE2F5B; 
+    letter-spacing: 5px;
+}
+
+.annivasry{
+    text-align: center;
+    background-color: #101010;
+    color: #fff;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 1px;
+    width: 30%;
+    padding: 20px 50px 20px 40px;
+    left: 75%;
+    top: 65%;
+    right: 0;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.read-more{
+    font-size: large;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    margin-top: 50px;
+}
+
+.reason-div{
+    position: relative;
+    border: 5px solid #EE2F5B;
+    border-radius: 8px;
+    height: 600px;
+    width: 40%;
+    height: 120vh;
+    margin-left: 45px;
+}
+
+.reason{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: -1%;
+    top: 25px;
+}
+
+.writeup-3{
+    background-color: red;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.writeup-4{
+    color: #EE2F5B; 
+    letter-spacing: 5px;
+}
+
+.writeup-4-head{
+    color: white;
+}
+
+.sponsor-container{
+    margin-top: 360px;
+}
+
+.global-sponsors{
+    text-align: center;
+    background-color: #EE2F5B;
+    color: #fff;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 1px;
+    width: 40%;
+    padding: 10px 10px 30px 10px;
+    left: -8%;
+    top: -7%;
+    right: 0;
+    font-weight: 700;
+    font-size: larger; 
+}
+
+.sponsor-amount{
+    font-size: 50px;
+    font-weight: 800; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus-sign-2{
+    position: absolute;
+    font-weight: 1000;
+    font-size: x-large;
+    right: 70px;
+    top: 17px;
+    left: 145px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width:480px){
+    body{
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    .whole-wrapper{
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    nav{
+        margin: 0;
+    }
+
+    header{
+        padding-top: 10px;
+        height: 800px;
+        width: 100%;
+        overflow-x: hidden;
+        margin-left: 0;
+    }
+
+    .theme{
+        margin-top: -20px;
+    }
+
+    .date{
+        text-align: center;
+        font-size: medium;
+        font-weight: 700;
+    }
+
+    .ticket-btn-container{
+        
+    }
+
+    .ticket-btn{
+        font-weight: 500;
+        border: none;
+        color: white;
+        margin: 0px;
+        background-color: transparent;
+        border: 1px solid #08003C;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .video{
+        margin-top: 15px;
+        padding-left: 120px;
+    }
+
+    .video-area{
+        display: inline;
+        font-weight: 500;
+    }
+
+    .video-btn{
+        font-size: x-large;
+        border: 1px solid #08003C;
+        background-color: transparent;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 50%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .list-icon{
+        text-align: center;
+    }
+    .search-icon{
+        text-align: center;
+    }
+
+    .event{
+        font-weight: 100;
+        font-size: 65px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;   
+    }
+
+    .anticipate-container{
+        font-size: smaller;
+    }
+
+    .anticipate{
+        margin-top: 30px;
+        letter-spacing: 2px;
+        font-size: large;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .boxed-divs{
+        gap: 20px;
+        padding-bottom: 70px;
+        padding-left: 40px;
+        border-bottom: 1px solid #211A50;
+    }
+
+    .attendees{
+        width: 90%;
+    }
+
+    .volunteer{
+        position: relative;
+        text-align: center;
+        width: 90%;
+        height: 150px;
+        padding: 15px 40px 10px 40px;
+        border: 1px solid white;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .plus-sign{
+        display: none;
+        font-size: large;
+        font-weight: 900;
+        position: absolute;
+        width: 100%;
+        left: 15%;
+        top: 15%;
+    }
+
+    .about{
+        position: absolute;
+        bottom: 80px;
+        top: 10px;
+        width: 100%;
+        height: 370px;
+    }
+
+    .about-div{
+        position: relative;
+        border: 5px solid #EE2F5B;
+        border-radius: 8px;
+        height: 400px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .about-container{
+        
+        text-align: center;
+        padding-top: 80px;
+        width: 90%;
+    }
+
+    .annivasry{
+        text-align: center;
+        background-color: #101010;
+        color: #fff;
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 1px;
+        width: 72%;
+        padding: 20px 20px 20px 20px;
+        top: 90%;
+        left: 32%;
+        right: 0;
+        font-weight: 700;
+        font-size: medium;
+    }
+
+    .writeup-head{
+        font-size: xx-large;
+    }
+
+    .writeup-1{
+        font-size: smaller;
+        font-weight: 600;
+        width: 100%;
+        text-align: start;
+        padding-left: 0px;
+        margin-bottom: 130px;
+    }
+
+    .writeup-2{
+        color: #EE2F5B; 
+        letter-spacing: 5px;
+        font-size: smaller;
+        font-weight: 600
+    }
+
+    .read-more{
+        font-size: large;
+        font-weight: 500;
+        background-color: transparent;
+        border: none;
+        border: 3px solid white;
+        color: white;
+        padding: 17px 45px 17px 45px;
+        margin-top: 60px;
+    }
+    
+    .reason-div{
+        position: relative;
+        border: 5px solid #EE2F5B;
+        border-radius: 8px;
+        height: 600px;
+        width: 90%;
+        height: 70vh;
+    }
+    
+    .reason{
+        position: absolute;
+        width: 100%;
+        height: 105%;
+        left: -10px;
+        top: 0;
+    }
+    
+    .writeup-3{
+        background-color: red;
+        width: 50%;
+        margin-top: 15px;
+    }
+    
+    .writeup-4{
+        color: #EE2F5B; 
+        letter-spacing: 5px;
+    }
+    
+    .writeup-4-head{
+        color: white;
+    }
+    
+    .sponsor-container{
+        margin-top: 50px;
+        margin-left: -25px;
+    }
+
+    .global-sponsors{
+        text-align: center;
+        background-color: #EE2F5B;
+        color: #fff;
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 1px;
+        width: 65%;
+        padding: 15px 20px 20px 20px;
+        left: -2.5%;
+        top: -10%;
+        right: 0;
+        font-weight: 700;
+        font-size: larger; 
+    }
+
+    .sponsor-amount{
+        font-size: x-large;
+    }
+    
+    .plus-sign-2{
+        position: absolute;
+        font-weight: 1000;
+        font-size: x-large;
+        right: 70px;
+        top: 5px;
+        left: 116px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
